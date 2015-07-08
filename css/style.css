@@ -1,0 +1,131 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #0940ca;
+    color: #fff;
+}
+
+.color-yellow {
+    color: #fcfe54;
+}
+
+.color-red {
+    color: #c70202;
+}
+
+a.color-white {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a.color-white:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Roboto Mono';
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.h3-bold {
+    font-weight: bold;
+}
+
+.header {
+    background-color: #000;
+    background-repeat: repeat-x;
+    background-position: center;
+    text-align: center;
+    background-color: #fff;
+
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+
+    .header h1 {
+        font-size: 50px;
+        margin-bottom: 5px;
+        color: rgb(64, 64, 64);
+        margin-top: 0;
+    }
+
+    .header h3 {
+        font-weight: bold;
+    }
+
+    #header-links {
+        margin-top: 10px;
+    }
+
+    #header-links a {
+        text-decoration: underline;
+        color: #0000A6;
+        margin-right: 20px;
+
+        font-size: 20px;
+
+        font-family: 'Roboto Mono';
+    }
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px;
+    background-repeat: no-repeat;
+    -ms-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-position: center;
+}
+
+    .circle.avatar {
+        background-image: url('../img/avatar.jpg');
+        border: none;
+    }
+
+    .circle.email {
+        background-image: url('../img/email.png');
+    }
+
+    .circle.skype {
+        background-image: url('../img/skype.png');
+    }
+
+.skill {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border: 1px solid #04aaac;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+}
+
+li {
+    list-style-type: square;
+}
